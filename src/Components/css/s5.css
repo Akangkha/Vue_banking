@@ -1,0 +1,47 @@
+.bank1
+{
+    display: flex;
+}
+
+.cards
+{
+    position: absolute;
+    right: 40px;
+    bottom: 28px;
+}
+
+.cards p{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+f{
+font-weight: bold;
+font-size: 30px;
+}
+
+#plus img
+{
+position:relative;
+
+
+
+}
+
+#plus {
+    width:300px;
+    position: relative;
+    top:0px;
+    left:30px;
+}
+
+.cards1 p
+{
+   padding: 0px; 
+}
+
+
+.cards1{
+    padding-left: 75px;
+    padding-top: 45px;
+}

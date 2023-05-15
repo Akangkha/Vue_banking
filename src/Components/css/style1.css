@@ -1,0 +1,138 @@
+.container
+{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    left:100px;
+    top:80px;   
+    box-sizing: content-box;
+    width:1000px;
+}
+
+.hello1,.w1,.w2,.welcome1
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.w1{
+    margin-top: 40px;
+}
+.welcome1
+{
+    font-weight:800;
+    position: relative;
+    bottom:10px;
+}
+
+.hello1,.w1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.welcome{
+    font-size: 25px;
+}
+
+.w1,.w2,button
+{
+    padding-top: 20px;
+}
+
+#phone
+{
+    border: transparent;
+    background: transparent;
+    padding-left: 10px;
+
+}
+
+.tel
+{
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.557);
+    padding: 9px;
+    padding-bottom: 12px;
+    margin:20px;
+    margin-left:0px;
+    margin-top:40px;
+    width:400px;
+    background: rgb(236, 235, 235);
+    border-radius: 15px;
+
+}
+
+#telcode
+{
+    border-right:1.5px solid rgb(139, 139, 139) ;
+    padding-right: 4px;
+}
+.code img{
+    position:relative;
+    top:4px;
+}
+
+::placeholder
+{
+    font-family: 'Raleway', sans-serif;
+}
+button{
+    align-items: center;
+    border:transparent;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.557);
+    padding: 10px;
+    margin:20px;
+    margin-left:0px;
+    width:420px;
+    background:rgba(191, 19, 191, 1);
+    border-radius: 15px;
+    color:white;
+    position: relative;
+    right:45px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    }
+
+button img{
+    position:relative;
+    left:40%;
+}
+
+.img11
+{
+    position: relative;
+    right:30px;
+    top:20px;
+}
+
+.account1
+{
+    text-align: center;
+    margin:50px;
+    margin-top:20px;
+    width: 350px;
+    font-family: 'Raleway', sans-serif;
+    font-size:15px ;
+}
+
+.account1 span{
+    color:rgba(191, 19, 191, 1);
+    width:50px;
+}
+
+
+button,.account1 span:hover,#telcode
+{
+    cursor: pointer;
+}
+
+.col22
+{
+    position:relative ;
+    top:80px;
+    left:100px;
+}

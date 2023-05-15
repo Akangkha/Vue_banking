@@ -1,0 +1,124 @@
+.hh1,.hb
+{
+    display: flex;
+}
+.sidenav1
+{
+    display:flex;
+    flex-direction: column;
+    height:350px;
+    width:40px;
+    padding:20px;
+    justify-content: space-between;
+    box-shadow: 2px 0px 3px #e1e1e18a; 
+
+}
+
+
+.sidenav1 img:hover
+{
+    cursor: pointer;
+    box-shadow: 1px 0px 10px  rgba(191, 19, 191, 1);
+    border-radius: 30px;
+    padding:1px;
+   
+}
+
+.all1
+{
+    display: flex;
+}
+
+.i1 p{
+    padding:15px;
+    margin:0px;
+}
+
+.i1{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    
+}
+
+.bar
+{
+    box-shadow: 3px 0px 3px #d3d2d28a; 
+    margin-left: 20px;
+    margin-top: 30px;
+    width:250px
+}
+
+.i11
+{
+    background-color: rgba(219, 211, 235, 0.5);
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.line
+{
+    height:2px;
+    background-color:#e1e1e18a ;
+    margin:13px 20px;
+}
+
+.bar p3
+{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.i1:hover{
+    cursor: pointer;
+    background-color: rgb(213, 237, 221);
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+p11
+{
+    padding: 20px 60px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+p12
+{
+    padding: 20px 60px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.pw
+{
+margin-left: 60px;
+}
+
+.pw p11
+{
+    padding-left: 0px;
+}
+
+
+p1212
+{
+    padding-left: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+p32
+{
+    font-size: 12px;
+    font-weight: 600;
+    color:rgba(191, 19, 191, 1);
+    margin-left: 60px;
+    
+}
+

@@ -1,0 +1,152 @@
+.container3
+{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    left:150px;    
+    width:1000px;
+}
+#pic
+{
+    margin-left: 40px;
+}
+*
+{font-family: 'Raleway', sans-serif;
+}
+.c2
+{
+    padding-left: 60px;
+}
+
+.container3 p{
+    margin :0px;
+    margin-top: 10px;
+    padding:10px 0px;
+}
+.bd1
+{
+    font-size: 13px;
+}
+
+.bd{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#birthday,#State,#Country,.tel
+{
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.557);
+    padding: 9px;
+    padding-bottom: 12px;
+    margin:10px;
+    margin-left:0px;
+    width:400px;
+    background: rgb(236, 235, 235);
+    border-radius: 15px;
+    border:transparent;
+
+}
+
+#State,#Country
+{
+    width:420px;
+}
+
+
+
+::placeholder
+{
+    font-family: 'Raleway', sans-serif;
+}
+#bb1{
+    align-items: center;
+    border:transparent;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.557);
+    padding: 10px;
+    margin:20px;
+    position:relative;
+    right:40px;
+    top:10px;
+    width:420px;
+    background:rgb(139, 139, 139) ;
+    border-radius: 15px;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    }
+
+button img{
+    position:relative;
+    left:40%;
+}
+
+.account1
+{
+    text-align: center;
+    /* margin:50px; */
+    margin-top:50px; 
+    margin-left:80px; 
+    margin-right:80px; 
+    font-family: 'Raleway', sans-serif;
+    font-size:12px ;
+    width:470px;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+.account1 span{
+    color:rgba(191, 19, 191, 1);
+   
+}
+
+.foot
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 -5px 3px #e1e1e18a;
+    margin-top: 10px;
+    
+}
+
+.a1,.a2
+{
+    background-color: rgb(236, 235, 235);
+    padding:10px 20px;
+    width:150px;
+    border-radius: 15px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.557);
+    font-size: 13px;
+}
+
+.a
+{
+    width:410px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button,.account1 span:hover
+{
+    cursor: pointer;
+}
+
+
+
+#policy:checked {
+    accent-color:rgba(191, 19, 191, 1) 
+  }
+
+  .c1 #currency
+  {
+    width: 420px;
+  }
+
+
+  

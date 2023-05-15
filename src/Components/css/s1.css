@@ -1,0 +1,240 @@
+.b,.details,.head,.buttons,.main,.icon1,.icon2,.d1,.bottom,.buttons1
+{
+    display: flex;
+}
+
+
+.sidenav
+ {
+     display:flex;
+     flex-direction: column;
+     height:350px;
+     width:40px;
+     padding:20px;
+     justify-content: space-between;
+     box-shadow: 5px 0px 3px #e1e1e18a; 
+ }
+ 
+ 
+ .sidenav img:hover
+ {
+     cursor: pointer;
+     box-shadow: 1px 0px 10px  rgba(191, 19, 191, 1);
+     border-radius: 30px;
+     padding:1px;
+    
+ }
+
+
+
+ #email11
+ {
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.557);
+        margin-top: 7px;
+        font-weight: 600;
+    }
+ 
+
+    .details{
+        width:180px;
+        justify-content: space-between;
+        margin-top: 20px;
+        height: 60px;
+        margin-left: 46px;
+    }
+
+    .buttons{
+        position: absolute;
+        right:30px;
+        top:26px;
+        justify-content: space-between;
+        width: 420px;
+        height:60px;
+       
+    }
+
+  
+    .button1
+    {
+    border: 1px solid rgba(191, 19, 191, 1);
+    border-radius: 15px;
+    padding: 0px 40px;
+    color: rgba(191, 19, 191, 1);
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    
+    width: 27%;
+    height:45px;
+    }
+    
+    .button2
+    {
+    background-color:rgba(191, 19, 191, 1);
+    border-radius: 15px;
+    padding:0px 40px;
+    color:white;
+    align-items: center;
+    display: flex;
+    font-size:13px;
+    font-weight: bold;
+    justify-content: space-between;
+    width: 27%;
+    text-align: center;
+    height:45px;
+    }
+
+    .buttons p{
+        padding: 0px;
+        margin: 4px 5px;
+        width:120px
+    }
+
+    .button2 p{color: white;
+    padding-left: 0px;}
+
+
+    .balance
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(243, 242, 242, 0.801);
+        border-radius: 0px 0px 15px 15px;
+        height:180px;
+        justify-content: space-between;
+        margin-left: 4%;
+    }
+
+    .bal2
+    {
+        display: flex;
+    }
+
+    
+
+.bal2
+{
+   
+    display: flex;
+    color:rgba(191, 19, 191, 1);
+}
+
+.withdraw,.add
+{   
+    padding:14px 63px;
+    font-size:13px;
+    font-weight: bold;
+}
+
+.withdraw
+{
+ border-radius: 0px 0px 0px 15px;
+ background-color: rgba(255, 214, 255, 1);
+}
+
+.add
+{
+ border-radius: 0px 0px 15px 0px;
+ background-color: rgba(255, 214, 255, 1);
+ width:100px;
+
+}
+
+.bal1
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 16px;
+}
+
+p1
+{
+    font-weight:550;
+    font-size: 12px;
+    color:black;
+    margin-top: 10px;
+}
+
+p2
+{
+font-size: 35px;
+margin-top: 0px;
+margin-left: -2px;
+}
+
+.icon1,.icon2,.d1{
+    width:500px;
+
+}
+
+.main
+{
+    justify-content: space-between;
+    width:1100px;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.icons
+{
+    margin-top: 40px;
+}
+
+.icon2
+{
+    margin-top: 20px;
+}
+
+.d{
+    margin-left: 18px;
+}
+.d p
+{
+   margin:0px;
+   padding:0px;
+   font-weight: 510px;
+   color: black;
+}
+
+
+.no
+{
+    margin: 10px 46px;
+}
+
+#p{
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+.width
+{
+    width:60%;
+    margin:10px;
+}
+
+.width p{
+    padding-left: 13px;
+    padding-right: 0px;
+    width:90px;
+}
+
+
+.bottom{
+    justify-content: space-between;
+    margin-right: 13%;
+    margin-top: 4%;
+}
+
+.buttons1{
+    position: relative;
+    right:13px;
+}
+
+.button1,.button2,.withdraw,.add,.d1 img,.details img:hover{
+    cursor: pointer;
+}
+

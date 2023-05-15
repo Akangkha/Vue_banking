@@ -1,0 +1,76 @@
+.hb{
+    position:absolute;
+    right: 80px;
+    width:200px;
+    justify-content: space-evenly;
+    top:47px;
+    font-weight: 500;
+    font-size: 13px;
+    color:rgba(191, 19, 191, 1);
+}
+
+
+po
+{
+    position:relative;
+    left:10px;
+    bottom: 3px;
+}
+
+.container10
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.dj
+{
+    display: flex;
+}
+
+#table
+{
+    margin-left: 80px;
+}
+
+#table td,#table th{
+    width:30px;
+    padding: 25px 10px;
+    text-align: left;
+}
+
+.tr{
+    box-shadow: 0px 2px 3px #e1e1e100; 
+}
+
+.tdd
+{
+    font-weight: 500;
+}
+
+.tdd1 img{
+    padding-left: 30px;
+}
+
+td img{
+    position: relative;
+    top: 5px;
+    padding-right: 10px;
+}
+
+
+#abc
+{
+    color: rgba(41, 204, 122, 1);
+}
+
+#abcd
+{
+    color:rgba(255, 178, 26, 1);
+}
+
+
+#abcde
+{
+    color:rgba(204, 20, 20, 1);
+}
