@@ -109,7 +109,7 @@ function Signup2(props) {
 
     <div className="foot">
         
-        <span className="account1"><input type="checkbox" id="policy" name="terms" value="yes" recquired onClick={color}/>I have read and I agree to the <span>Terms and Conditions </span> and the <span>Privacy Policy.</span></span>
+        <span className="account1"><input type="checkbox" id="policy" name="terms" value="yes" required onClick={color}/>I have read and I agree to the <span>Terms and Conditions </span> and the <span>Privacy Policy.</span></span>
         <button type="button"  id="bb1" onClick={() => props.updateMain("3")}  >NEXT<img src="./images/Vector.png" width="10px"/> </button>
      </div>
     
